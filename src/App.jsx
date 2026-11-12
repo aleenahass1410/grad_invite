@@ -14,7 +14,7 @@ import {
 // ==========================================
 
 const WHATSAPP_NUMBER = "923333348440";
-const BROTHER_PHOTO = "/brother-photo.jpg";
+const BROTHER_PHOTO = `${import.meta.env.BASE_URL}brother-photo.jpg`;
 
 const mapUrl =
   "https://www.google.com/maps/search/?api=1&query=Haji+Altaf+Pakwan+Centre+Ruqaiya+Square+Karachi";
